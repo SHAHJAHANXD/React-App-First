@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.h-50 {
+  height: 40px !important;
+}
+
+.color-white {
+  background-color: #fff;
+}
+
+.color-red {
+  color: white;
+  background: linear-gradient(135deg, #f75959 0%, #f35587 100%);
+}
+
+.p-100 {
+  padding: 50px;
+}
+
+.signup {
+  padding: 10px 15px;
+  border-radius: 22px;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.padding-top {
+  margin-top: 80px !important;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.m-l-10 {
+  margin-left: 10px;
+}
+
+.shadoww {
+  box-shadow: 0px 0px 14px 2px #aaa;
+}
+
+.m-t-40 {
+  margin-top: 40px;
+}
+
+.m-t-100 {
+  margin-top: 120px;
+}
+.forget-pass
+{
+  text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+}
+.remeber-me
+{
+  text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    margin-left: 10px;
+}
+
+.m-t-b-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000;
+  font-weight: 700;
+}
+
+.form-control {
+  height: 48px;
+  background: rgba(0, 0, 0, .05);
+  color: #000;
+  font-size: 16px;
+  border-radius: 50px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid transparent;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.submit-btn {
+  border: none;
+  padding: 13px 161px;
+  border-radius: 24px;
+  color: white;
+  background: linear-gradient(135deg, #f75959 0%, #f35587 100%);
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .submit-btn {
+    border: none;
+    padding: 13px 85px;
+    border-radius: 24px;
+    color: white;
+    background: linear-gradient(135deg, #f75959 0%, #f35587 100%);
+    font-weight: 600;
+    margin-top: 10px;
+  }
+}
